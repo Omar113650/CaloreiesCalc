@@ -1,7 +1,7 @@
 .model small
 .stack 100h
 
-                           DATA SEGMENT
+                     ;      DATA SEGMENT
  ;**************************************************************
 .data
     TitleMessage                db 13,10,' Daily Calorie Calculator',13,10
@@ -30,7 +30,7 @@
     TotalDailyEnergyExpenditure dw ?
 
    
-                           CODE SEGMENT
+    ;     CODE SEGMENT
         ;************************************************************
 .code
 main proc
